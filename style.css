@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin: 0;
+}
+
+.top {
+    width:100% ;
+    background-image: url('Group 1.jpg');
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    justify-content: center;
+}
+
+.left {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 50px;
+    background-color: #EBECEE;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 780px) {
+    .left {
+        text-align: center;
+    }
+
+}
+
+.right {
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    background-color: #FFFFFF;
+    flex-basis: 75%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.avatar {
+    max-width: 250px;
+    border-radius: 150px;
+    margin-bottom: 15px;
+}
+
+.table {
+    display: table;
+    text-align: left;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.table3 .tbody {
+    padding-top: 10px;
+}
+
+.table .cell {
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.table .caption {
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.table3 .caption {
+    border-bottom: 1px solid #9A9A9A;
+}
+
+hr {
+    color: #BEBEBE;
+}
+
+.caption {
+    display: table-caption;
+    padding: 10px;
+}
+
+.tbody {
+    display: table-row-group;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+}
+
+.cell-cl {
+    display: table-cell;
+    padding: 10px 0;
+}
+
+.cor {
+    color: #656565;
+}
+
+h3 {
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+h4 {
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.case-circles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*@media screen and (max-width: 730px) {*/
+
+
+/*}*/
+
+.circle {
+    display: inline-block;
+    margin: .5em;
+    width: 9em;
+    height: 9em;
+    position: relative;
+    border-radius: 50%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.circle:after {
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    content: '';
+    background: #FFFFFF;
+    position: absolute;
+    left: .5em;
+    top: .5em;
+    height: 8em;
+    width: 8em;
+}
+
+.c1 {
+    background-image: linear-gradient(220deg, transparent 50%, black 50%), linear-gradient(-90deg, #ddd 50%, black 50%);
+}
+
+.c2 {
+    background-image: linear-gradient(150deg, transparent 50%, black 50%), linear-gradient(-90deg, #ddd 50%, black 50%);
+}
+
+.c3 {
+    background-image: linear-gradient(-90deg, #ddd 50%, black 50%);
+}
+
+.c4 {
+    background-image: linear-gradient(270deg, transparent 50%, black 50%), linear-gradient(-180deg, #ddd 50%, black 50%);
+}
+
+
+.content1 {
+    padding-top: 70px;
+    font-size: small;
+    position: relative;
+    z-index: 2;
+}
+
+.a2 {
+    color:black;
+    text-decoration: none;
+}
+
+.a2:hover {
+    text-decoration: underline;
+}
+
+.a2:visited {
+    color:black;
+}
+
+.a2:active {
+    color:blue;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.link {
+
+}
+
+.info {
+    font-size: small;
+}
+
+.info p {
+    margin: 0;
+}
+
+.info li {
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: small;
+}
+
+.info p:nth-child(2), .info p:nth-child(3) {
+    color:#656565;
+}
+
+.info h2 {
+    margin-bottom: 5px ;
+    font-size: small;
+}
+
+.case {
+    padding-top: 30px;
+}
+
+.software {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.container2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #ddd;
+    height: 10px;
+}
+
+.HTML {
+    width: 80%;
+    background-color: black;
+    height: 10px;
+}
+
+.CSS {
+    width: 90%;
+    background-color: black;
+    height: 10px;
+}
+
+.PHOTOSHOP {
+    width: 50%;
+    background-color: black;
+    height: 10px;
+}
+
+.FIGMA {
+    width: 70%;
+    background-color: black;
+    height: 10px;
+}
+
